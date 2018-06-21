@@ -1,2 +1,2 @@
 # fira-platform
-SNU FIRA Bigdata Platform Technology
+2018 SNU FIRA Bigdata Platform Technology
