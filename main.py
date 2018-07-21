@@ -22,10 +22,7 @@ with connection.cursor() as cursor:
     print('13. print all audiences who booked for a performance\n14. print ticket booking status of a performance\n15. exit')
     print('='*60)
     order = int(input('Select your action: ')) - 1
-    if order == 14:
-        print('Bye!')
-        connection.close()
-    while 0 <= order <= 13:
+    while 0 <= order <= 14:
         
         if order <= 2:
             sql = ['select * from buildings order by id', 
